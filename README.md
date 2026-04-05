@@ -3,5 +3,5 @@ You can talk about youself || anything you want
 
 ---
 
-My name is **Bakhtovar Ismatjonov** 🪖.
+My name is **Bakhtovar Ismatjonov** 🪖. <br>
 I'm not owner this repository 🔨!
