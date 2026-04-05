@@ -1,2 +1,7 @@
-# Check-Repo
-This repository was created for writing something interesting)
+# Write anythings about you
+You can talk about youself || anything you want
+
+---
+
+My name is **Bakhtovar Ismatjonov** 🪖.
+I'm not owner this repository 🔨!
