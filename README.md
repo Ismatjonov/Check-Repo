@@ -1,14 +1,23 @@
-# Write anythings about you
-You can talk about youself || anything you want
+# 📑 My Notes
+All notes about learning process and programming new tips 🫯
 
 ---
 
-My name is **Bakhtovar Ismatjonov** 🪖. <br>
-I'm not owner this repository 🔨!
 
-Sorry, I swear it's a last time 😔
 
-I told that was the last one, and I kept my words!
+---
+
+👤 Contacts information:
+
+`
+bakhtovar = {
+    name: "Bakhtovar",
+    surname: "Ismatjonov",
+    age: 19,
+    gender: "male",
+    isMarried: false 
+}
+`
 
 ---
 
