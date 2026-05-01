@@ -9,7 +9,7 @@ All notes about learning process and programming new tips 🫯
 
 👤 Contacts information:
 
-`
+``
 bakhtovar = {
     name: "Bakhtovar",
     surname: "Ismatjonov",
@@ -17,7 +17,7 @@ bakhtovar = {
     gender: "male",
     isMarried: false 
 }
-`
+``
 
 ---
 
