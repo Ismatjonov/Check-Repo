@@ -13,3 +13,5 @@ I told that was the last one, and I kept my words!
 ---
 
 I give me option back 🔙
+
+Now that I will write here all my notes about learning progress 📈
