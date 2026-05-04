@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="Pluser/Pluser.vcxproj" />
+  <Project Path="Pluser/Pluser.vcxproj" Id="6f5ca78b-a9a3-4f27-a34f-2fb75085b162" />
 </Solution>
