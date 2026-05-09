@@ -27,7 +27,8 @@ bakhtovar = {
 
 # Notes:
 1. Connect to Database:
-```
+
+```csharp
 using System.Data.SqlClient;
 
 class Program
@@ -35,10 +36,7 @@ class Program
     static void Main(string[] args)
     {
         string stringConnection = 
-        "SERVER=.\\SQLEXPRESS;
-        Database=test_db;
-        Trusted_Connection=True;
-        TrustServerCertificate=True";
+        "SERVER=.\\SQLEXPRESS;Database=test_db;Trusted_Connection=True;TrustServerCertificate=True";
         
         // Connecting
         SqlConnection connect = new SqlConnection(connectionString);
