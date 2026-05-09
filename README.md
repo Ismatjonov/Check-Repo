@@ -3,11 +3,14 @@ All notes about learning process and programming new tips 🫯
 
 ---
 
-
+# 🕹️ Skills:
+- .NET Frameworks
+- MSSQL Server
+- Version Control (Git)
 
 ---
 
-👤 Contacts information:
+👤 About me:
 
 ```JavaScript
 bakhtovar = {
