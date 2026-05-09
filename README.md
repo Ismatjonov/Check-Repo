@@ -10,7 +10,7 @@ All notes about learning process and programming new tips 🫯
 
 ---
 
-👤 About me:
+# 👤 About me:
 
 ```JavaScript
 bakhtovar = {
