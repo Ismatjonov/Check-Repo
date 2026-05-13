@@ -66,3 +66,8 @@ Creating and start a new thread
 Thread myThread = new Thread(Print);
 myThread.Start();
 ```
+Some useful properties and methods of Thread's class
+```csharp
+Thread.Name;  // Name of current thread
+Thread.Sleep();  // Set up the timer for executing
+```
