@@ -88,3 +88,24 @@ for(int i = 0; i < 10; i++)
     Console.WriteLine(i);
 }
 ```
+Thread's synchronization with operator `lock`
+```
+object myLock = new ();
+int x = 0;  // common resource
+
+for (int i = 1; i < 6; i++)
+{
+    Thread myThread = new (Print);
+    myThread.Name = "Thread: " + i;
+    myThread.Start();
+
+    void Print()
+    {
+        lock(myLock)
+        {
+            // code
+        }
+    }
+}
+
+```
