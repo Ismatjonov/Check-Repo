@@ -90,35 +90,27 @@ for(int i = 0; i < 10; i++)
 ```
 Thread's synchronization with operator `lock`
 ```csharp
-object myLock = new ();
-int x = 0;  // common resource
-
+int x = 0;  // некоторый общий ресурс
+Lock _lockObj = new(); // объект-заглушка для синхронизации доступа
+// запускаем пять потоков
 for (int i = 1; i < 6; i++)
 {
-    Thread myThread = new (Print);
-    myThread.Name = "Thread: " + i;
+    Thread myThread = new(Print);
+    myThread.Name = $"Поток {i}";
     myThread.Start();
 }
-
-    void Print()
+ 
+void Print()
+{
+    lock(_lockObj)  // начало критической секции
     {
-        lock(myLock)
+        x = 1;
+        for (int i = 1; i < 5; i++)
         {
-            try
-            {
-                x = 1;
-                for(int i = 0; i < 6; i++)
-                {
- Console.WriteLine($”{Thread.CurrentThread.Name} {x}”);
-x++;
-Thread.Sleep(100);
-                }
-            }
-            finally
-            {
-                 myLock.Exit();
-            }
+            Console.WriteLine($"{Thread.CurrentThread.Name}: {x}");
+            x++;
+            Thread.Sleep(100);
         }
-    }
-
+    }  // завершение критической секции
+}
 ```
